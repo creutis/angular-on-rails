@@ -22,7 +22,7 @@ module TodoMvc
 
     # include Bower components in compiled assets
     config.assets.paths << Rails.root.join('app', 'assets')
-    config.assets.paths << Rails.root.join('lib', 'assets')
+    config.assets.paths << Rails.root.join('lib', 'assets', 'bower_components')
 
 
     # We don't want the default of everything that isn't js or css, because it pulls too many things in
