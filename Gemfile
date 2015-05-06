@@ -7,6 +7,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'bower-rails'
+gem 'rails-12factor', group: :production
 
 group :doc do
   gem 'sdoc', require: false
