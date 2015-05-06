@@ -7,7 +7,6 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'bower-rails'
-gem 'rails_12factor', group: :production
 
 group :doc do
   gem 'sdoc', require: false
@@ -16,4 +15,9 @@ end
 group :development, :test do
 	gem 'rspec-rails', '~> 3.0'
 	gem 'factory_girl_rails', '~> 4.0'
+end
+
+group :production, :staging do
+	gem 'heroku_rails_deflate'
+	gem 'rails_12factor'
 end
