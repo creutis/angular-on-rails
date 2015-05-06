@@ -20,8 +20,10 @@ module TodoMvc
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    config.serve_static_assets = true
+
     # We don't want the default of everything that isn't js or css, because it pulls too many things in
-    #config.assets.precompile.shift
+    config.assets.precompile.shift
 
     # include Bower components in compiled assets
     config.assets.paths << Rails.root.join('app', 'assets')
