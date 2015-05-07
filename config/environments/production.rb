@@ -21,18 +21,23 @@ TodoMvc::Application.configure do
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = true
+  config.serve_static_files = true
   config.assets.compress = true
   
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
+  #config.assets.precompile =  ['*.js', '*.css']
 
   # Compress JavaScripts and CSS.
+  #config.assets.css_compressor = :yui
   #config.assets.js_compressor = :uglifier
-  config.assets.js_compressor = Uglifier.new(mangle: false)
+  
   # config.assets.css_compressor = :sass
 
   # Generate digests for assets URLs.
-  config.assets.digest = true
+  config.assets.digest = false
+
+  config.assets.debug = true
 
   # Version of your assets, change this if you want to expire all your assets.
   config.assets.version = '1.0'
@@ -81,4 +86,6 @@ TodoMvc::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  #config.assets.js_compressor = Uglifier.new(mangle: false)
 end
