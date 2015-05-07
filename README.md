@@ -2,8 +2,6 @@
 
 Pushing to Codeship.
 
-Added some tests and travis.yml.
-
 Angular on Rails - is an implementation of the popular [Todo MVC](http://www.todomvc.com) using Angular and Ruby on Rails. You can clone this project for the finished product or you can follow this tutorial to build your own.
 
 ## Part 1 - Installing Bower
