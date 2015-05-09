@@ -1,6 +1,6 @@
 # Angular on Rails - w/ tutorial
 
-[ ![Codeship Status for creutis/angular-on-rails](https://codeship.com/projects/561238b0-d775-0132-a5c6-6ee25babf239/status?branch=master)](https://codeship.com/projects/78655)
+[ ![Codeship Status for creutis/angular-on-rails](https://codeship.com/projects/08926170-d863-0132-9ec0-769405cfda59/status?branch=master)](https://codeship.com/projects/78862)
 
 Doing a demo!
 
