@@ -2,7 +2,7 @@
 
 [ ![Codeship Status for creutis/angular-on-rails](https://codeship.com/projects/d3c021b0-6ac3-0133-ccb1-62b058ef9788/status?branch=master)](https://codeship.com/projects/114964)
 
-deploy using codeship.
+Lets deploy this too heroku.
 
 Angular on Rails - is an implementation of the popular [Todo MVC](http://www.todomvc.com) using Angular and Ruby on Rails. You can clone this project for the finished product or you can follow this tutorial to build your own.
 
