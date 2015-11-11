@@ -1,8 +1,6 @@
 # Angular on Rails - w/ tutorial
 
-[ ![Codeship Status for creutis/angular-on-rails](https://codeship.com/projects/d3c021b0-6ac3-0133-ccb1-62b058ef9788/status?branch=master)](https://codeship.com/projects/114964)
-
-Lets deploy this too heroku.
+[ ![Codeship Status for creutis/angular-on-rails](https://codeship.com/projects/cfeb63e0-6ac3-0133-f35b-62b058ef9788/status?branch=master)](https://codeship.com/projects/114963)
 
 Angular on Rails - is an implementation of the popular [Todo MVC](http://www.todomvc.com) using Angular and Ruby on Rails. You can clone this project for the finished product or you can follow this tutorial to build your own.
 
