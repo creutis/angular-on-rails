@@ -1,5 +1,7 @@
 # Angular on Rails - w/ tutorial
 
+[ ![Codeship Status for creutis/angular-on-rails](https://codeship.com/projects/605c40d0-6b47-0133-571d-4e7d03b9bb62/status?branch=master)](https://codeship.com/projects/115144)
+
 Angular on Rails - is an implementation of the popular [Todo MVC](http://www.todomvc.com) using Angular and Ruby on Rails. You can clone this project for the finished product or you can follow this tutorial to build your own.
 
 ## Part 1 - Installing Bower
